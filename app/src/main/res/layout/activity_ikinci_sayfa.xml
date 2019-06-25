@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf0f1"
+    android:orientation="vertical"
+    tools:context=".ikinci_sayfa">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_margin="12dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_yellow2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:padding="10dp"
+                android:text="STATE"
+                android:textColor="#ffc200"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <com.tomer.fadingtextview.FadingTextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#E40108"
+                android:textSize="125sp"
+                android:textStyle="bold"
+                app:texts="@array/text"
+                app:timeout="500" />
+
+            <TextView
+                android:id="@+id/bitir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="170dp"
+                android:background="@drawable/buttonshape"
+                android:fontFamily="@font/maven_pro_bold"
+                android:gravity="center"
+                android:onClick="set_bitir"
+                android:padding="15dp"
+                android:text="FINISH"
+                android:textColor="#ffc200"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>

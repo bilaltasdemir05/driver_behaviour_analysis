@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bitirme_threshhold</string>
+    <string name="hi">
+        <font fgcolor="#444444">Haven’t registered yet?  </font><font fgcolor="#000000">Join now</font>
+    </string>
+    <string-array name="text">
+    <item></item>
+    </string-array>
+</resources>
